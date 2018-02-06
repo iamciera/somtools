@@ -1,0 +1,16 @@
+Package: somtools
+Title: Visualize Clusters in Kohonen Package
+Version: 0.0.0.9000
+Authors@R: person(“Ciera”, “Martinez”, email = “ciera.martinez@gmail.com”, role = c("aut", "cre"))
+Description: These are a bunch of functions I created to help me analyze specific 
+	clusters when using the Kohonen R package.  These clusters likely will
+	only work for this particular project, because of how specific my 
+	cluster variables are. Sorry. Maybe someday I will make more generic. 
+Depends: R (>= 3.3.0)
+License: 
+Encoding: UTF-8
+LazyData: true
+Imports:
+	dplyr,
+    ggplot2
+RoxygenNote: 6.0.1
